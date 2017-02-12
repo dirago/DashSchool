@@ -12,8 +12,8 @@ export class LoginComponent implements OnInit {
 	returnUrl: string;
 	// Auto-fill pour le formulaire pendant le dev :<
 	connexion: Object = {
-		loginUser: 'admin',
-		passwordUser: 'admin'
+		loginUser: '',
+		passwordUser: ''
 	};
 	// gif loading
 	loading: boolean = false;
