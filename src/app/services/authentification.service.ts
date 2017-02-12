@@ -10,7 +10,7 @@ export class AuthentificationService {
 
 	logIn(login: string, password: string) {
 		console.log("tentative d'authentification");
-		return this.http.post('http://raphaeldirago.com/dashSchool/api/web/login', JSON.stringify({
+		return this.http.post('https://raphaeldirago.com/dashSchool/api/web/login', JSON.stringify({
 			login: login,
 			password: password
 		}))

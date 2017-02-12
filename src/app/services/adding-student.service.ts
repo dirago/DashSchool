@@ -5,7 +5,7 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class AddingStudentService {
-	private addingUrl: string = 'http://raphaeldirago.com/dashSchool/api/web/student/add';
+	private addingUrl: string = 'https://raphaeldirago.com/dashSchool/api/web/student/add';
 	
 	constructor( private http: Http) {
 	}

@@ -3,7 +3,7 @@ import { Http, Response } from "@angular/http";
 
 @Injectable()
 export class EditingStudentService {
-	editingURL: string = 'http://www.raphaeldirago.com/dashSchool/api/web/student/update/';
+	editingURL: string = 'https://www.raphaeldirago.com/dashSchool/api/web/student/update/';
 	isUpdated: boolean;
 	
 	constructor( private http: Http ) {

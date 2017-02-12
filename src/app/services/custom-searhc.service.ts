@@ -8,7 +8,7 @@ import {Student} from "../models/student";
 
 @Injectable()
 export class CustomSearhcService {
-  private listingUrl: string = 'http://raphaeldirago.com/dashSchool/api/web/listing';
+  private listingUrl: string = 'https://raphaeldirago.com/dashSchool/api/web/listing';
 
   students: Observable<Student[]>;
 

@@ -10,8 +10,8 @@ import {Student} from "../models/student";
 @Injectable()
 export class ListingService {
 
-  private listingUrl: string = 'http://raphaeldirago.com/dashSchool/api/web/listing';
-  private studentUrl: string = 'http://raphaeldirago.com/dashSchool/api/web/listing/detailStudent/';
+  private listingUrl: string = 'https://raphaeldirago.com/dashSchool/api/web/listing';
+  private studentUrl: string = 'https://raphaeldirago.com/dashSchool/api/web/listing/detailStudent/';
   
   students: Observable<Student[]>;
   student: Observable<Student []>;
